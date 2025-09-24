@@ -53,8 +53,9 @@ bash
 ```
 go mod download
 
-    Run the application:
 ```
+
+Run the application:
 bash
 ```
 go run main.go validators.go types.go
