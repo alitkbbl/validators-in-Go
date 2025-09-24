@@ -43,23 +43,22 @@ A simple RESTful service built with the **Gin** framework in **Go** that validat
 
 ### Steps
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
+  ```bash
+  git clone https://github.com/your-username/your-repo-name.git
+  cd your-repo-name
+  ```
 2. Install dependencies:
 
-bash
-```
-go mod download
-
-```
+  bash
+  ```
+  go mod download
+  ```
 
 Run the application:
-bash
-```
-go run main.go validators.go types.go
-```
+  bash
+  ```
+  go run main.go validators.go types.go
+  ```
 The server will start at http://localhost:8080
 
 ---
@@ -67,13 +66,13 @@ The server will start at http://localhost:8080
 ### 🚀 Usage Example
 
 Using curl:
-```bash
-curl -X POST http://localhost:8080/user/validate \
-  -F "first_name=ali" \
-  -F "last_name=alavi" \
-  -F "username=alialavi" \
-  -F "email=alavi@quera.org" \
-  -F "phone_number=09123456789" \
-  -F "birth_date=2000/01/01" \
-  -F "national_id=7421368515"
-```
+  ```bash
+  curl -X POST http://localhost:8080/user/validate \
+    -F "first_name=ali" \
+    -F "last_name=alavi" \
+    -F "username=alialavi" \
+    -F "email=alavi@quera.org" \
+    -F "phone_number=09123456789" \
+    -F "birth_date=2000/01/01" \
+    -F "national_id=7421368515"
+  ```
